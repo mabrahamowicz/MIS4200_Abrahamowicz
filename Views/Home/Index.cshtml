@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Machala Abrahamowicz's Page</h1>
+    <p class="lead">I am a student in the College of Business at Ohio University</p>
+    <p><a href="https://cob.ohio.edu" class="btn btn-primary btn-lg">Ohio's College of Business &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Check Out Where I Interned</h2>
+        <p>
+            Over the summer I interned at a private real estate company in Hilton Head, South Carolina
+        </p>
+        <p>Here is the sample application links</p>
+        @Html.ActionLink("Paitents", "Index", "Patients")<br />
+        @Html.ActionLink("Doctors", "Index", "Doctors")<br />
+        @Html.ActionLink("Appointments", "Index", "Appointments")<br /> 
+        <p><a class="btn btn-default" href="https://schembrarealestategroup.com/">Schembra's Page &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Student Organization</h2>
+        <p>I am in Ohio University's student run organization ISAP, Information Systems and Analytics Professionals! Check it out.</p>
+        <p><a class="btn btn-default" href="https://ouisap.com/">ISAP's Page &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Favorite Things</h2>
+        <p>My favorite thing to do is go to concerts and music festivals. Electric Forest is my favorite summer fest to attend filled with awesome music.</p>
+        <p><a class="btn btn-default" href="https://electricforestfestival.com/">Check out the Forest &raquo;</a></p>
+    </div>
+</div>
